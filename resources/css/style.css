@@ -3,6 +3,7 @@ html {
   padding: 0;
   margin: 0;
   font-family: Helvetica;
+  line-height: 1.4em;
 }
 
 .container {
@@ -60,4 +61,73 @@ header {
 #banner-text h2 {
   font-weight: bold;
   padding-bottom: 0.5rem;
+}
+
+/* Navigation Section */
+nav {
+  background-color: firebrick;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+/* Products Section */
+#products {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+#pen, #watch, #glasses {
+  width: 30%;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  padding: 2rem 0;
+  height: 9rem;
+}
+
+.product-image img {
+  max-width: 8rem;
+}
+
+.description {
+  background-color: black;
+  text-align: center;
+  padding: 0.75rem;
+  display: block;
+}
+
+/* Business Info Section */
+#info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+#location, #hours {
+  width: 35%;
+}
+
+#info h3 {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+#info p {
+  padding-top: 0.5rem;
+}
+
+/* Footer Section */
+footer {
+  display: flex;
+  align-self: center;
+  background-color: black;
+  height: 5rem;
 }
