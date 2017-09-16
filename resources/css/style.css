@@ -1,0 +1,63 @@
+html {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+/* Header Section */
+header {
+  background-color: black;
+  width: 100%;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  padding: 0.66rem 0;
+}
+
+#logo img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+/* Banner Section */
+#banner {
+  background-image: url("/Users/solhallam/Documents/WDP/secret-agent-supply/resources/images/moto.jpg");
+  background-size: cover;
+  height: 20rem;
+  padding-top: 9rem;
+}
+
+#banner-text {
+  background-color: black;
+  width: 20rem;
+  padding: 2rem 3rem;
+}
+
+#banner-text h2 {
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
