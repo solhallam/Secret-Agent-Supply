@@ -49,6 +49,7 @@ header {
   background-image: url("/Users/solhallam/Documents/WDP/secret-agent-supply/resources/images/moto.jpg");
   background-size: cover;
   height: 20rem;
+  width: 100%;
   padding-top: 9rem;
 }
 
@@ -66,11 +67,16 @@ header {
 /* Navigation Section */
 nav {
   background-color: firebrick;
+  width: 100%;
 }
 nav ul {
   display: flex;
   justify-content: space-between;
   padding: 0.75rem 0;
+}
+
+.mobile-nav-container {
+  display: none;
 }
 
 /* Products Section */
@@ -130,4 +136,31 @@ footer {
   align-self: center;
   background-color: black;
   height: 5rem;
+  width: 100%;
+}
+
+/* Different Screen Sizes */
+@media only screen and (max-width: 1024px) {
+  #products {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+  }
+
+  #pen, #watch {
+    width: 47%;
+  }
+
+  #glasses {
+    display: none;
+  }
+
+  nav ul {
+   display: none;
+ }
+
+ .mobile-nav-container {
+   display: block;
+   text-align: center;
+ }
 }
